@@ -1,5 +1,5 @@
 {
-  "name": "adal-node",
+  "name": "@newforma/adal-node",
   "author": {
     "name": "Microsoft Open Technologies Inc",
     "email": "msopentech@microsoft.com",
@@ -13,7 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AzureAD/azure-activedirectory-library-for-nodejs.git"
+    "url": "https://github.com/Newforma/azure-activedirectory-library-for-nodejs.git"
+  },
+  "publishConfig": {
+    "registry": "http://nuget.newforma.local:4873/"
   },
   "version": "0.1.22",
   "description": "Windows Azure Active Directory Client Library for node",
